@@ -47,7 +47,7 @@ st.write(f"**Total Estimated Cost: ${total_cost}**")
 
 # --- Layout Visualization (drawable canvas) ---
 st.markdown("### Draw your layout:")
-canvas_result = st_canvas(
+
     fill_color="rgba(255, 165, 0, 0.3)",  # translucent orange
     stroke_width=2,
     stroke_color="#000000",
