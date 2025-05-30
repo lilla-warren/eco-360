@@ -48,19 +48,6 @@ st.write(f"**Total Estimated Cost: ${total_cost}**")
 # --- Layout Visualization (drawable canvas) ---
 st.markdown("### Draw your layout:")
 
-    fill_color="rgba(255, 165, 0, 0.3)",  # translucent orange
-    stroke_width=2,
-    stroke_color="#000000",
-    background_color="#eee",
-    height=300,
-    width=500,
-    drawing_mode="rect",
-    key="canvas",
-)
-
-if canvas_result.image_data is not None:
-    st.image(canvas_result.image_data, caption="Your layout sketch")
-
 # --- 3D Model Embed (Sketchfab iframe) ---
 st.markdown("### 3D Furniture Preview:")
 sketchfab_model_url = "https://sketchfab.com/models/7w7e7w2c0cb14cb981faeaaf6db27b72/embed"
